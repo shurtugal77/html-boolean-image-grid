@@ -10,9 +10,19 @@
     <h1>Media</h1>
     <h2>Images</h2>
     <h3>Resizing</h3>
-    <img src="../images/Bavarian Dragon.png" width="500" alt="bavarian_dragon">
-    <img src="../images/davidguettawg.jpg" width="500" alt="david_guetta_graf">
+    <p>Resizing images using the CSS height width properties alone will resize our images whilst maintaining their aspect ratio</p>
+    <img class="pic" src="../images/Bavarian Dragon.png" alt="bavarian_dragon">
+    <img class="pic" src="../images/davidguettawg.jpg" alt="david_guetta_graf">
 
+    <p>But if we set both height and width, then the images will be forced to adhere to those dimensions and won't neccessarily be the correct aspect ratio.</p>
+    
+    <img class="skew" src="../images/Bavarian Dragon.png" alt="bavarian_dragon">
+    <img class="skew" src="../images/davidguettawg.jpg" alt="david_guetta_graf">
+
+    <h2>Using containers to size images</h2>
+    <div class="img-container">
+        <img src="../images/Bavarian Dragon.png" alt="bavarian_dragon">
+    </div>
 
     <section class="empty"></section>
 </body>

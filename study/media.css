@@ -4,6 +4,21 @@
 }
 
 .pic {
-    width: 600px;
+    width: 300px;
     height: auto;
+}
+
+.skew {
+    height: 200px;
+    width: 800px;
+}
+
+.img-container {
+    width: 140px;
+    height: 170px;
+    border: solid 2px darkred;
+}
+
+.img-container > img {
+    width: 100%;
 }
