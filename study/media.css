@@ -1,0 +1,9 @@
+.empty {
+    height: 500px;
+    border: none;
+}
+
+.pic {
+    width: 600px;
+    height: auto;
+}
