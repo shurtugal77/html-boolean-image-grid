@@ -1,3 +1,7 @@
+body {
+    padding-left: 100px;
+}
+
 .empty {
     height: 500px;
     border: none;
@@ -21,4 +25,26 @@
 
 .img-container > img {
     width: 100%;
+}
+.img-container-2 {
+    
+    border: solid 2px darkred;
+}
+
+.img-container-2 > img {
+    width: 100%;
+}
+
+.fixed-size{
+    width: 500px;
+    height: 600px;
+    border: 1px solid blue;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.object-fit-contain {
+    object-fit: contain;
 }
