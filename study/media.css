@@ -36,9 +36,9 @@ body {
 }
 
 .fixed-size{
-    width: 500px;
+    width: 600px;
     height: 600px;
-    border: 1px solid blue;
+    border: 2px solid blue;
 }
 
 .object-fit-cover {
@@ -51,4 +51,8 @@ body {
 
 .object-fit-none {
     object-fit: none;
+}
+
+.profile {
+    border-radius: 50%;
 }
