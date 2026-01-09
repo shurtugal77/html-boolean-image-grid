@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .main-grid {
     display: grid;
     grid-template-rows: 100px 1fr 100px;
@@ -22,11 +27,14 @@ footer {
 
 .card {
     width: 400px;
-    height: 500px;
+    height: 700px;
     border: 1px solid red;
     border-radius: 20px;
 }
 
-.card > img {
+.image-auto-fit {
     width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
