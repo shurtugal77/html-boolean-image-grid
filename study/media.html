@@ -55,6 +55,18 @@
     <p>SVG Fixed Size</p>
     <img class="huge" src="../images/cross-circle.svg" alt="black_cross">
 
+    <h2>Some inline SVG</h2>
+    <div>
+        <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img">
+        <title>A gradient</title>
+        <lineargradient id="gradient">
+        <stop class="begin" offset="0%" stop-color="red" />
+        <stop class="end" offset="100%" stop-color="black" />
+        </lineargradient>
+        <rect x="0" y="0" width="100" height="100" fill="url(#gradient)"/>
+        <circle cx="50" cy="50" r="30" fill="url(#gradient)" />
+        </svg>
+    </div>
 
     <section class="empty"></section>
 </body>
