@@ -10,8 +10,11 @@ body {
 
 .header {
     background-color: #011434;
+    /* Make entire header with image scroll with page */
     position: sticky;
     top: 0;
+    /* Center img in the header grid vertically */
+    align-content: center;
 }
 
 main {
@@ -30,8 +33,9 @@ footer {
 
 .header-logo {
     height: 100px;
-    left: 10px;
-    top: 0;
+    /* Logo position shifted to the right */
+    position: relative;
+    left: 30px;
 }
 
 .object-fit-cover {
