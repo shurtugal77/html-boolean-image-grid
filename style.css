@@ -60,7 +60,7 @@ main {
     background-color: #FFFFFF;
     display: grid;
     
-    /* Responsive Grid, 4 Columns, at least Min Value for cards */
+    /* Responsive Grid, min-width 250px, at least Min Value for cards */
     /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
     
     /* Same as above. Responsive with edge case, when browser window is smaller than 250px and overflow would occur. Otherwise use all the space available */
