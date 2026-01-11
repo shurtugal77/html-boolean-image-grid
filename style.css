@@ -67,11 +67,11 @@ footer {
 
 .image-auto-fit {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 
-    /* TODO: round corners on images */
-    /* border-top-left-radius: 20px;
-    border-top-right-radius: 20px; */
+    /* Rounded corners only on top of the images */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 /* Icon container for mini logos */
