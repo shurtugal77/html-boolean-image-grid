@@ -9,6 +9,7 @@ body {
 }
 
 .header {
+    height: 100px;
     background-color: #011434;
 
     /* Make entire header with image scroll with page */
@@ -71,6 +72,7 @@ main {
 
 footer {
     background-color: #011434;
+    height: 100px;
 }
 
 .header-logo {
