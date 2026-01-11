@@ -63,7 +63,7 @@ main {
     /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
     
     /* Same as above. Responsive with edge case, when browser window is smaller than 250px and overflow would occur. Otherwise use all the space available */
-    grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
 
     gap: 10px;
     margin: 40px 300px 40px 300px;
@@ -91,14 +91,16 @@ footer {
 .card {
     border: 1px solid black;
     border-radius: 10px;
-
     /* Subgrid for image, icons and text */
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-flow: row;
-
+    
     /* Layout items in subgrid evenly - if text is not the same length in different cards */
     align-content: start;
+
+    /* Relative position for absolute Logo */
+    position: relative;
 }
 
 .image-auto-fit {
@@ -123,6 +125,14 @@ footer {
     position: relative;
     right: 20px;
     height: 35px;
+}
+
+.boolean-logo {
+    position: absolute;
+    border-radius: 50%;
+    height: 50px;
+    top: 5px;
+    right: 5px;
 }
 
 .card-text {
