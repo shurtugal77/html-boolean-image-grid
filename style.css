@@ -52,10 +52,6 @@ a {
 }
 
 a:hover {
-    /* Enable underline when navbar hover */
-    text-decoration: underline;
-    text-underline-offset: 10px;
-
     /* Neon effeckt */
     text-shadow: 
     0 0 5px #ff005e,
