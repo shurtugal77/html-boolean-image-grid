@@ -47,6 +47,10 @@ a {
     text-decoration: none;
 }
 
+.active-site {
+    text-decoration: overline;
+}
+
 a:hover {
     /* Enable underline when navbar hover */
     text-decoration: underline;
