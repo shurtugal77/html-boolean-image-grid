@@ -36,7 +36,7 @@ body {
     justify-items: center;
 }
 
-a {
+.navbar-item {
     /* Set navbar font color and style when unclicked */
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -51,7 +51,7 @@ a {
     text-decoration: overline;
 }
 
-a:hover {
+.navbar-item:hover {
     /* Neon effeckt */
     text-shadow: 
     0 0 5px #ff005e,
