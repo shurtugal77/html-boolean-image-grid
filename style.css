@@ -227,7 +227,17 @@ footer {
 }
 
 .detail-text {
-    margin-left: ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
+}
+
+.extreme-detail-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;   
+    margin-left: 20px;
+}
+
+ul {
+    margin-left: 10px;
+    list-style: upper-roman;
 }
