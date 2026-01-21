@@ -8,6 +8,13 @@ body {
     grid-template-rows: 100px auto-fit 1fr 100px;
 }
 
+.detail-grid {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+}
+
+
 .header {
     display: grid;
     grid-template-columns: 1fr .5fr;
