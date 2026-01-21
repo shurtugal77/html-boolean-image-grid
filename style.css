@@ -26,6 +26,13 @@ body {
     align-items: center;
 }
 
+.header-logo {
+    height: 80px;
+    /* Logo position shifted to the right */
+    position: relative;
+    left: 30px;
+}
+
 .header-nav {
     display: grid;
     grid-auto-flow: column;
@@ -136,12 +143,16 @@ footer {
     height: 100px;
 }
 
-.header-logo {
-    height: 80px;
-    /* Logo position shifted to the right */
-    position: relative;
-    left: 30px;
+@media screen and (max-width: 500px) {
+    .header, footer{
+        height: 50px;
+    }
+
+    .header-logo {
+        height: 40px;
+    }
 }
+
 
 .object-fit-cover {
     object-fit: cover;
