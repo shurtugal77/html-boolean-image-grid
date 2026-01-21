@@ -138,18 +138,36 @@ main {
     margin: 40px 300px 40px 300px;
 }
 
+/* Optimizing for mobile screen */
+@media screen and (max-width: 800px) {
+    main {
+        margin: 0 5%;
+    }
+}
+
+/* Optimizing for tablet screen */
+@media screen and (min-width: 501px) and (max-width: 800px){
+    main {
+        margin: 0 15%;
+    }
+}
+
 footer {
     background-color: #011434;
     height: 100px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .header, footer{
         height: 50px;
     }
 
     .header-logo {
         height: 40px;
+    }
+
+    .header {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
