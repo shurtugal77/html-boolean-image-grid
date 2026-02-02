@@ -17,7 +17,10 @@ body {
 
 .header {
     display: grid;
-    grid-template-columns: 1fr .5fr;
+    /* grid-template-columns: 1fr .5fr; */
+
+    /* Make three columns, leave the "empty space" blank with auto adjust = 1fr */
+    grid-template-columns: minmax(50px, 100px) 1fr minmax(100px, 350px);
     
     height: 100px;
     background-color: #011434;
@@ -45,6 +48,8 @@ body {
     grid-auto-flow: column;
     list-style: none;
     margin: 0;
+    /* Disable automatic list padding */
+    padding: 0;
 
     /* Center row-grid (x-Axis) container of the navbar */
     justify-items: center;
@@ -138,9 +143,9 @@ main {
     /* Responsive Grid, min-width 250px, at least Min Value for cards */
     /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
     
-    /* Same as above. Responsive with edge case, when browser window is smaller than 250px and overflow would occur. Otherwise use all the space available */
+    /* Same as above. Responsive with edge case, when browser window is smaller than 300px and overflow would occur. Otherwise use all the space available */
     grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
-
+    grid-auto-rows: minmax(150px, 1fr);
     gap: 10px;
     margin: 40px 300px 40px 300px;
 }
@@ -174,8 +179,12 @@ footer {
         height: 40px;
     }
 
-    .header {
-        grid-template-columns: 1fr 1fr;
+    .navbar-item {
+    font-size: medium;
+    }
+
+    .hero-text {
+    font-size: medium;
     }
 }
 
